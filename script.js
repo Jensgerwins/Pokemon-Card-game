@@ -38,24 +38,21 @@ function render() {
 
 
 
+        console.log(Pokemons[0].id);
+        arr.push(Pokemons);
 
-        if (object.name === "Bisasam") {
-            cardimg1.src = object.img;
-            cardimg2.src = object.img;
-            cardimg3.src = object.img;
-            cardimg4.src = object.img;
-            cardimg5.src = object.img;
+        cardimg1.src = Pokemons[1].img;
+        cardimg2.src = Pokemons[3].img;
+        cardimg3.src = Pokemons[2].img;
+        cardimg4.src = Pokemons[0].img;
+        cardimg5.src = Pokemons[4].img;
 
-            document.cardWapper.append(cardimg1, cardimg2, cardimg3, cardimg4, cardimg5);
+        document.cardWapper.append(cardimg1, cardimg2, cardimg3, cardimg4, cardimg5);
 
-        }
-        else {
-            console.log("fehler")
-        }
     }
+
+    console.log("fehler")
 }
-console.log(arr)
-function setImg() {
-    cardimg1.src = object.img;
-    document.cardWapper.append(cardimg1);
-}
+
+
+

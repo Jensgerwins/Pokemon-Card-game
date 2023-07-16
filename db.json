@@ -1,14 +1,29 @@
 {
   "Pokemon": [
     {
-      "id": "001",
+      "id": 1,
       "name": "Bisasam",
       "img": "./img/001.png"
     },
     {
-      "id": "002",
+      "id": 2,
       "name": "Bisaknosp",
       "img": "./img/002.png"
+    },
+    {
+      "id": 3,
+      "name": "Bisaflor",
+      "img": "./img/003.png"
+    },
+    {
+      "id": 4,
+      "name": "Glumanda",
+      "img": "./img/004.png"
+    },
+    {
+      "id": 5,
+      "name": "Glutexo",
+      "img": "./img/005.png"
     }
   ]
 }

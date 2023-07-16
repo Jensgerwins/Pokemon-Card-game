@@ -33,7 +33,7 @@ body {
 #pokemon-card-wapper {
   text-align: center;
   width: 10vw;
-  height: 30vh;
+  height: 35vh;
   background-color: aquamarine;
   border-radius: 2%;
   border: solid green 0.2em;
@@ -45,6 +45,7 @@ img {
   width: 95%;
   border: solid red 0.2em;
   margin-top: 0.3rem;
+  background-color: black;
 }
 
 #pokemon-card-name {
