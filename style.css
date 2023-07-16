@@ -1,0 +1,52 @@
+html {
+  box-sizing: border-box;
+  margin: 0rem;
+  padding: 0rem;
+
+  font-size: 12px;
+}
+
+body {
+  box-sizing: border-box;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+#header {
+  margin-top: 0;
+  width: 100vw;
+  height: 20vh;
+  background-color: blueviolet;
+}
+#playground {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+  width: 100vw;
+  height: 80vh;
+  background-color: blue;
+}
+
+#pokemon-card-wapper {
+  text-align: center;
+  width: 10vw;
+  height: 30vh;
+  background-color: aquamarine;
+  border-radius: 2%;
+  border: solid green 0.2em;
+  box-shadow: 0.1rem 0.1rem 0.1rem 0.1rem green;
+  margin-left: 1rem;
+}
+
+#PokemonCard1 {
+  width: 95%;
+  border: solid red 0.2em;
+  margin-top: 0.3rem;
+}
+
+#pokemon-card-name {
+  text-align: start;
+  margin-left: 0.6rem;
+}

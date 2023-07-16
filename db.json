@@ -1,0 +1,14 @@
+{
+  "Pokemon": [
+    {
+      "id": "001",
+      "name": "Bisasam",
+      "img": "./img/001.png"
+    },
+    {
+      "id": "002",
+      "name": "Bisaknosp",
+      "img": "./img/002.png"
+    }
+  ]
+}
