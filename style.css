@@ -12,20 +12,21 @@ body {
   height: 100vh;
   margin: 0;
   padding: 0;
+  background-color: blueviolet;
 }
 #header {
-  margin-top: 0;
+  margin: 0;
   width: 100vw;
-  height: 20vh;
+  height: 15vh;
   background-color: blueviolet;
 }
 #playground {
   display: flex;
-  justify-content: flex-start;
-  align-items: center;
+  justify-content: center;
+  align-items: flex-end;
 
   width: 100vw;
-  height: 80vh;
+  height: 100vh;
   background-color: blue;
 }
 
@@ -38,9 +39,9 @@ body {
   border: solid green 0.2em;
   box-shadow: 0.1rem 0.1rem 0.1rem 0.1rem green;
   margin-left: 1rem;
+  margin-bottom: 15rem;
 }
-
-#PokemonCard1 {
+img {
   width: 95%;
   border: solid red 0.2em;
   margin-top: 0.3rem;
